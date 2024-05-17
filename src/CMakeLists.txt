@@ -29,9 +29,9 @@ juce_add_plugin(ExamplePlugin
     FORMATS 
     # The formats to build. Other valid formats are: AAX Unity VST AU AUv3
             Standalone 
-            AU
+            # AU
             # AUv3 
-            VST3 
+            # VST3 
             # Unity 
             ${AAX_BUILD_FLAG}               
     VST3_CATEGORIES "Fx" 
